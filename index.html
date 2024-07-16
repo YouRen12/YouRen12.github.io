@@ -115,8 +115,8 @@
     <div class="article-wrap">
         
             <h2 class="article-title cl">
-                <a href="/2024/07/15/如何部署一篇博客/" title="你好，我是李骏">
-                    你好，我是李骏
+                <a href="/2024/07/15/如何部署一篇博客/" title="你好，世界">
+                    你好，世界
                 </a>
             </h2>
         
@@ -136,17 +136,19 @@
         </ul>
         <div class="article-description">
             
-            <pre class=" language-hljs HTML"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span> 大家好！我叫李骏。来自安徽省马鞍山市 <span class="hljs-tag">&lt;/<span class="hljs-name"><code class="language-hljs HTML"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span> 大家好！我叫李骏。来自安徽省马鞍山市 <span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>></span>
-<span class="hljs-tag"><<span class="hljs-name">h2</span>></span> 学历是专科 年龄:22 <span class="hljs-tag"></<span class="hljs-name">h2</span>></span>
-<span class="hljs-tag"><<span class="hljs-name">h3</span>></span> 学校是安徽工业经济职业技术学院 专业是软件技术<span class="hljs-tag"></<span class="hljs-name">h3</span>></span></code></pre>
+            <h4 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h4><pre class=" language-hljs c"><span class="hljs-string"><code class="language-hljs c"><span class="hljs-string">"我叫李骏。来自安徽省马鞍山市"</span></p>
+<span class="hljs-string">"今年22岁，23年毕业的，学校是安徽工业经济职业技术学院，专业是软件技术"</span></p>
+<span class="hljs-string">"之前做了一年ERP软件的实施工作，来千锋是因为一直想从事开发行业，从抖音上了解的，就过来了"</span></code></pre>
 
-<pre class=" language-hljs JavaScript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string"><code class="language-hljs JavaScript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"马鞍山市，安徽省辖地级市，地处安徽省东部，长江下游，东邻南京市，西接合肥市，北连滁州市，南接芜湖市和宣城市，总面积4049平方千米。截至2023年末，马鞍山市下辖3个区、3个县；全市常住人口219.1万人。"</span>);</code></pre>
+<h4 id="家乡"><a href="#家乡" class="headerlink" title="家乡"></a>家乡</h4><pre class=" language-hljs js"><span class="hljs-string"><code class="language-hljs js"><span class="hljs-string">"马鞍山市，安徽省辖地级市，地处安徽省东部，长江下游，东邻南京市，西接合肥市，北连滁州市，南接芜湖市和宣城市，总面积4049平方千米。截至2023年末，马鞍山市下辖3个区、3个县；全市常住人口219.1万人。"</span>;</code></pre>
 
-<pre class=" language-hljs java">System.out.println(<span class="hljs-string"><code class="language-hljs java">System.out.println(<span class="hljs-string">"因为这主题太垃圾了，没办法插入图片，所以我只能文字介绍"</span>)</code></pre>
-
-<pre class=" language-hljs C"><span class="hljs-built_in">printf</span>(<span class="hljs-string"><code class="language-hljs C"><span class="hljs-built_in">printf</span>(<span class="hljs-string">"这一次主要是做技术分享，如何部署一篇博客，比如这篇博客是如何部署的"</span>)</code></pre>
+<pre class=" language-hljs C"><span class="hljs-string"><code class="language-hljs C"><span class="hljs-string">"这一次主要讲述，如何利用hexo部署一篇博客，比如说这篇博客是如何部署的"</span></code></pre>
 
 <hr>
+<br>
+<br>
+<br><br>
+
 <h2 id="Ⅰ-如何部署一篇博客"><a href="#Ⅰ-如何部署一篇博客" class="headerlink" title="Ⅰ.如何部署一篇博客"></a>Ⅰ.如何部署一篇博客</h2><h3 id="一、git"><a href="#一、git" class="headerlink" title="一、git"></a>一、git</h3><blockquote>
 <p>首先需要 git<br>没有 git 的话可以去这里下载</p>
 <blockquote>
@@ -162,13 +164,13 @@
 <h3 id="安装-Hexo-框架"><a href="#安装-Hexo-框架" class="headerlink" title="安装 Hexo 框架"></a>安装 Hexo 框架</h3><blockquote>
 <p>1.然后我们开始安装 Hexo 框架<br>首先是通过 cmd 安装 cnpm</p>
 <blockquote>
-<p>npm install -g cnpm –registry==<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a><br>安装好以后，通过 cmd 输入 cnpm -v, 出现 cnpm 版本信息说明安装成功</p>
+<p>npm install -g cnpm –registry==<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a><br>这个地址是镜像地址，可以直接下载所需要的框架<br>安装好以后，通过 cmd 输入 cnpm -v, 出现 cnpm 版本信息说明安装成功</p>
 </blockquote>
 </blockquote>
 <blockquote>
-<p>2、安装 hexo<br>npm install -g cnpm –registry==<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p>
+<p>2、安装 hexo</p>
 <blockquote>
-<p>安装好以后，可在 cmd 中输入 hexo -v, 出现 hexo 版本信息说明安装成功</p>
+<p>npm install -g cnpm –registry==<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a><br>安装好以后，可在 cmd 中输入 hexo -v, 出现 hexo 版本信息说明安装成功</p>
 </blockquote>
 </blockquote>
 <h3 id="三、然后新建一个文件夹-名称随意-建议叫-hexo"><a href="#三、然后新建一个文件夹-名称随意-建议叫-hexo" class="headerlink" title="三、然后新建一个文件夹 名称随意 建议叫 hexo"></a>三、然后新建一个文件夹 名称随意 建议叫 hexo</h3><blockquote>
@@ -185,12 +187,9 @@
 </blockquote>
 </blockquote>
 <h3 id="2-我这里演示从-github-上拉取开源样式，因为-github-的样式好看"><a href="#2-我这里演示从-github-上拉取开源样式，因为-github-的样式好看" class="headerlink" title="2.我这里演示从 github 上拉取开源样式，因为 github 的样式好看"></a>2.我这里演示从 github 上拉取开源样式，因为 github 的样式好看</h3><blockquote>
-<p>github 地址</p>
+<p>github 地址<br><a target="_blank" rel="noopener" href="https://github.com/ohoh3000/hexo-theme-mokusei">https://github.com/ohoh3000/hexo-theme-mokusei</a></p>
 <blockquote>
-<p><a target="_blank" rel="noopener" href="https://github.com/ohoh3000/hexo-theme-mokusei">https://github.com/ohoh3000/hexo-theme-mokusei</a><br>进入链接以后,点击右上角 code,获取地址</p>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://github.com/ohoh3000/hexo-theme-mokusei.git">https://github.com/ohoh3000/hexo-theme-mokusei.git</a></p>
-</blockquote>
+<p>进入链接以后,点击右上角 code,获取地址<br><a target="_blank" rel="noopener" href="https://github.com/ohoh3000/hexo-theme-mokusei.git">https://github.com/ohoh3000/hexo-theme-mokusei.git</a></p>
 </blockquote>
 </blockquote>
 <blockquote>
@@ -198,35 +197,16 @@
 <blockquote>
 <p>git clone <a target="_blank" rel="noopener" href="https://github.com/ohoh3000/hexo-theme-mokusei.git">https://github.com/ohoh3000/hexo-theme-mokusei.git</a> themes/mokusei<br>然后耐心等待主题下载</p>
 <blockquote>
-<p>下载完毕以后,在在 themse 文件夹下会出现名为：hexo-theme-chan 的主题文件夹</p>
+<p>下载完毕以后,在在 themse 文件夹下会出现名为：hexo-theme-mokusei 的主题文件夹</p>
 </blockquote>
 </blockquote>
 </blockquote>
 <blockquote>
-<p>然后打开 vscode,更改博客配置文件_config.yml, theme 选项值设为 mokusei</p>
+<p>然后打开 vscode,更改博客配置文件_config.yml, theme 选项值设为 mokusei 主题名称</p>
 </blockquote>
-<pre class=" language-hljs JavaScript">_config.<span class="hljs-property"><code class="language-hljs JavaScript">_config.<span class="hljs-property">yml</span>
-
-- <span class="hljs-attr">theme</span>: other themes
-+ <span class="hljs-attr">theme</span>: mokusei</code></pre>
-
-<blockquote>
-<p>关于代码高亮 (更改博客配置文件_config.yml 为以下推荐配置)</p>
-</blockquote>
-<pre class=" language-hljs JavaScript">_config.<span class="hljs-property"><code class="language-hljs JavaScript">_config.<span class="hljs-property">yml</span>
-
-<span class="hljs-attr">highlight</span>:
-  <span class="hljs-attr">enable</span>: <span class="hljs-literal">true</span>
-  <span class="hljs-attr">line_number</span>: <span class="hljs-literal">false</span>
-  <span class="hljs-attr">auto_detect</span>: <span class="hljs-literal">false</span>
-  <span class="hljs-attr">tab_replace</span>: <span class="hljs-string">''</span>
-  <span class="hljs-attr">wrap</span>: <span class="hljs-literal">false</span>
-  <span class="hljs-attr">hljs</span>: <span class="hljs-literal">true</span>
-<span class="hljs-attr">prismjs</span>:
-  <span class="hljs-attr">enable</span>: <span class="hljs-literal">false</span>
-  <span class="hljs-attr">preprocess</span>: <span class="hljs-literal">true</span>
-  <span class="hljs-attr">line_number</span>: <span class="hljs-literal">true</span>
-  <span class="hljs-attr">tab_replace</span>: <span class="hljs-string">''</span></code></pre>
+<pre class=" language-hljs c"><code class="language-hljs c">_config.yml
+- theme: other themes
++ theme: mokusei</code></pre>
 
 <h3 id="三、然后回到-git-使用以下命令更新主题"><a href="#三、然后回到-git-使用以下命令更新主题" class="headerlink" title="三、然后回到 git,使用以下命令更新主题"></a>三、然后回到 git,使用以下命令更新主题</h3><pre class=" language-hljs plaintext"><code class="language-hljs plaintext">hexo clean //执行此命令后继续下一条
 hexo g //生成博客目录
@@ -276,7 +256,7 @@ https://www.runoob.com/markdown/md-paragraph.html</code></pre>
         
         <div class="widget-post widget" style="order: 1 ">
             <h2 class="widget-title"><i class="fa fa-file-text"></i> 近期文章</h2>
-            <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2024/07/15/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">你好，我是李骏</a></li></ul>
+            <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2024/07/15/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">你好，世界</a></li></ul>
         </div>
         
 
